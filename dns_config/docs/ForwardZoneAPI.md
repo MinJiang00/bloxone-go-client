@@ -34,7 +34,7 @@ import (
 )
 
 func main() {
-	body := *openapiclient.NewConfigCopyForwardZone("endPointView") // ConfigCopyForwardZone | 
+    body := *openapiclient.NewConfigCopyForwardZone("endPointView") // ConfigCopyForwardZone | 
 
     configuration := openapiclient.NewConfiguration()
     apiClient := openapiclient.NewAPIClient(configuration)

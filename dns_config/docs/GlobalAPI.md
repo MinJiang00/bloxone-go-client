@@ -170,7 +170,7 @@ import (
 )
 
 func main() {
-	body := *openapiclient.NewConfigGlobal("cd0ad27d-87f3-4f0f-ac71-91272b4c1492") // ConfigGlobal | 
+    body := *openapiclient.NewConfigGlobal("cd0ad27d-87f3-4f0f-ac71-91272b4c1492") // ConfigGlobal | 
 
     configuration := openapiclient.NewConfiguration()
     apiClient := openapiclient.NewAPIClient(configuration)
@@ -236,8 +236,8 @@ import (
 )
 
 func main() {
-	id := "id_example" // string | An application specific resource identity of a resource
-	body := *openapiclient.NewConfigGlobal("cd0ad27d-87f3-4f0f-ac71-91272b4c1492") // ConfigGlobal | 
+    id := "id_example" // string | An application specific resource identity of a resource
+    body := *openapiclient.NewConfigGlobal("cd0ad27d-87f3-4f0f-ac71-91272b4c1492") // ConfigGlobal | 
 
     configuration := openapiclient.NewConfiguration()
     apiClient := openapiclient.NewAPIClient(configuration)
